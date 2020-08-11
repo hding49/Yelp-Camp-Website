@@ -18,7 +18,7 @@ var campgroundSchema = new mongoose.Schema({
       }
    ],
    created: {
-      type: date, default: Date.now
+      type: Date, default: Date.now
    }
 });
 
